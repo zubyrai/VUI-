@@ -409,7 +409,7 @@ const EventIntentHandler = {
         
                     
                 }).catch(error => {
-                   speechText = 'Sorry, this book is not available in library' + respone.ProfName +  'Would you like to ask email of another professor';
+                   speechText = 'Sorry, this book is not available in library';
                     return handlerInput.responseBuilder
                     .speak(speechText)
                     .withSimpleCard(appName)
